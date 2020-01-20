@@ -1,13 +1,3 @@
-From f9375f466319da57dfe608c2af3253423efa818b Mon Sep 17 00:00:00 2001
-From: Martin Abente Lahaye <martin.abente.lahaye@gmail.com>
-Date: Sat, 7 Dec 2019 02:20:26 -0300
-Subject: [PATCH 3/4] monitors
-
----
- TurtlePondActivity.py | 5 +++--
- game.py               | 7 +++++--
- 2 files changed, 8 insertions(+), 4 deletions(-)
-
 diff --git a/TurtlePondActivity.py b/TurtlePondActivity.py
 index dd6d96f..fbdb52d 100644
 --- a/TurtlePondActivity.py
@@ -32,7 +22,7 @@ index dd6d96f..fbdb52d 100644
          canvas.show()
          self.show_all()
 diff --git a/game.py b/game.py
-index 1cfb85c..fc2ad8c 100644
+index 8e93009..e7d9a4d 100644
 --- a/game.py
 +++ b/game.py
 @@ -33,6 +33,9 @@ except ImportError:
@@ -56,6 +46,4 @@ index 1cfb85c..fc2ad8c 100644
          self._scale = self._height / (14.0 * DOT_SIZE * 1.2)
          self._dot_size = int(DOT_SIZE * self._scale)
          self._turtle_offset = 0
--- 
-2.19.1
 
