@@ -26,7 +26,12 @@
                 {
                     "type": "git",
                     "url": "https://github.com/sugarlabs/turtlepond.git",
-                    "commit": "c7b220393eb617ccc5df74777679dd80f49fe69f"
+                    "tag": "v10",
+                    "commit": "e460fc472d2f900c4c71659dbec07a715a3847a7",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^v([\\d.]+)$"
+                    }
                 },
                 {
                     "type": "patch",

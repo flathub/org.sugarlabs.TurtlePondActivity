@@ -1,12 +1,11 @@
 diff --git a/activity/activity.info b/activity/activity.info
-index f3d9030..e4ace74 100644
+index b2f4c80..f848fd9 100644
 --- a/activity/activity.info
 +++ b/activity/activity.info
 @@ -1,12 +1,18 @@
  [Activity]
  name = Turtle in a Pond
--activity_version = 9
-+activity_version = 9.1
+ activity_version = 10
 +release_date = 2019-12-08
  license = GPLv3+;MIT
 +metadata_license = CC0-1.0
